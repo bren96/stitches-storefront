@@ -25,7 +25,7 @@ const CheckoutTemplate = () => {
               </>
             </Link>
             <Link href="/" className="text-xl-semi">
-              ACME
+              Stitches
             </Link>
             <div className="flex-1 basis-0" />
           </nav>
