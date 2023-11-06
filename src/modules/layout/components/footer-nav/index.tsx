@@ -4,18 +4,17 @@ import clsx from "clsx"
 import { useCollections, useProductCategories } from "medusa-react"
 import Link from "next/link"
 import CountrySelect from "../country-select"
+import BrandLogo from "../brand-logo"
 
 const FooterNav = () => {
   const { collections } = useCollections()
   const { product_categories } = useProductCategories()
 
   return (
-    <div className="content-container flex flex-col gap-y-8 pt-16 pb-8">
+    <div className="content-container flex flex-col gap-y-8 pt-16 pb-8 bg-teal-50">
       <div className="flex flex-col gap-y-6 xsmall:flex-row items-start justify-between">
         <div>
-          <Link href="/" className="text-xl-semi uppercase">
-            Stitches
-          </Link>
+          <BrandLogo withWording={true} />
         </div>
         <div className="text-small-regular grid grid-cols-3 gap-x-10 md:gap-x-16">
           {product_categories && (

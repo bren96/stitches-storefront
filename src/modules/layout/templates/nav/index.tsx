@@ -1,5 +1,6 @@
 "use client"
 
+import BrandLogo from "@modules/layout/components/brand-logo"
 import CartDropdown from "@modules/layout/components/cart-dropdown"
 import MobileMenu from "@modules/mobile-menu/templates"
 import DesktopSearchModal from "@modules/search/templates/desktop-search-modal"
@@ -13,7 +14,7 @@ const Nav = () => {
     >
       <header
         className={clsx(
-          "relative h-16 px-8 mx-auto transition-colors bg-transparent border-b border-transparent duration-200 group-hover:bg-white group-hover:border-gray-200 bg-white border-gray-200",
+          "relative h-16 px-8 mx-auto transition-colors bg-transparent duration-200 bg-teal-50",
         )}
       >
         <nav
@@ -24,9 +25,7 @@ const Nav = () => {
 
 
           <div className="flex items-center h-full">
-            <Link href="/" className="text-xl-semi uppercase">
-              Stitches
-            </Link>
+            <BrandLogo withWording={false} />
           </div>
 
           <div className="flex items-center gap-x-6 h-full flex-1 basis-0 justify-end">
