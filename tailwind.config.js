@@ -25,7 +25,7 @@ module.exports = {
       },
       fontFamily: {
         sans: [
-          "Inter",
+          "League Spartan",
           "-apple-system",
           "BlinkMacSystemFont",
           "Segoe UI",
