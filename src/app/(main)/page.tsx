@@ -22,7 +22,7 @@ const Home = () => {
           </ul>
           <br />
           <p>
-            With Stitches, you can look good and feel good about doing your part for the planet.
+            With Stitches, you can look good and feel good about doing your part for the planet 🌎
           </p>
         </>}
         actionText="Shop Online"
@@ -35,7 +35,7 @@ const Home = () => {
         body={
           <>
             <p>
-              Stitches began in 2023 with a simple idea: <b>that repairing is better than buying.</b>
+              Stitches began in 2023 with a simple idea: <b>that repairing is better than buying</b> 🪡 🧵
             </p>
             <br />
             <p>
@@ -52,8 +52,8 @@ const Home = () => {
         headerText="Store Hours"
         body={
           <ul>
-            <li>Mon  | closed</li>
-            <li>Tues | closed</li>
+            <li>Mon  | closed 🛑</li>
+            <li>Tues | closed 🛑</li>
             <li>Wed  | 10am - 6pm</li>
             <li>Thur | 10am - 6pm</li>
             <li>Fri  | 10am - 6pm</li>
