@@ -1,5 +1,6 @@
 "use client"
 
+import User from "@modules/common/icons/user"
 import BrandLogo from "@modules/layout/components/brand-logo"
 import CartDropdown from "@modules/layout/components/cart-dropdown"
 import MobileMenu from "@modules/mobile-menu/templates"
@@ -31,7 +32,9 @@ const Nav = () => {
           <div className="flex items-center gap-x-6 h-full flex-1 basis-0 justify-end">
             <div className="hidden small:flex items-center gap-x-6 h-full">
               {process.env.FEATURE_SEARCH_ENABLED && <DesktopSearchModal />}
-              <Link href="/account">Account</Link>
+              <Link href="/account">
+                <User />
+              </Link>
             </div>
             <CartDropdown />
           </div>
