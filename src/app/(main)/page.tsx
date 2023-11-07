@@ -39,7 +39,7 @@ const Home = () => {
             </p>
             <br />
             <p>
-              We're on a mission to reduce textile waste and promote sustainable fashion practices, one stitch at a time 🪡🧵
+              We are on a mission to reduce textile waste and promote sustainable fashion practices, one stitch at a time 🪡 🧵
             </p>
           </>
         }
