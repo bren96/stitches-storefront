@@ -1,14 +1,23 @@
 import UnderlineLink from "@modules/common/components/underline-link"
+import clsx from "clsx"
+import { Lobster } from 'next/font/google'
 import Image from "next/image"
+
+const lobster = Lobster({
+  weight: '400',
+  subsets: ['latin']
+})
 
 const Hero = () => {
   return (
     <div className="h-[90vh] w-full relative">
       <div className="text-white absolute inset-0 z-10 flex flex-col justify-center items-center text-center small:text-left small:justify-end small:items-start small:p-32">
-        <h1 className="text-2xl-semi mb-4 drop-shadow-md shadow-black">
-          Clothing Repair & Consignment
+        <h1 className={clsx(lobster.className, "text-6xl font-bold mb-4 drop-shadow-md shadow-black")}>
+          Reware & Repair
         </h1>
-        <UnderlineLink href="/store">Explore Collection</UnderlineLink>
+        <span className="text-black bg-white/50 p-4">
+          <UnderlineLink href="/store">Explore Collection</UnderlineLink>
+        </span>
       </div>
       <Image
         src="/hero.webp"
