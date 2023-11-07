@@ -29,7 +29,7 @@ const ProductTemplate: React.FC<ProductTemplateProps> = ({ product }) => {
 
   return (
     <ProductProvider product={product}>
-      <div className="content-container flex flex-col small:flex-row small:items-start py-6 relative">
+      <div className="content-container flex flex-col small:flex-row small:items-start py-6 relative bg-rose-50">
         <div className="flex flex-col gap-y-8 w-full">
           <ImageGallery images={product?.images || []} />
         </div>

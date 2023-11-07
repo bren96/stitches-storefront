@@ -57,7 +57,7 @@ const CollectionTemplate: React.FC<{ collection: ProductCollection }> = ({
   }, [inView, hasNextPage])
 
   return (
-    <div className="content-container py-6">
+    <div className="content-container py-6 bg-rose-50">
       <div className="mb-8 text-2xl-semi">
         <h1>{collection.title}</h1>
       </div>
