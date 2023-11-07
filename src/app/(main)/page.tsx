@@ -35,11 +35,11 @@ const Home = () => {
         body={
           <>
             <p>
-              Stitches began in 2023 with a simple idea: <b>that repairing is better than buying new</b> 🪡 🧵
+              Stitches began in 2023 with a simple idea: <b>repaired or second-hand is better than buying new</b>
             </p>
             <br />
             <p>
-              We're on a mission to reduce textile waste and promote sustainable fashion practices, one stitch at a time.
+              We're on a mission to reduce textile waste and promote sustainable fashion practices, one stitch at a time 🪡🧵
             </p>
           </>
         }
