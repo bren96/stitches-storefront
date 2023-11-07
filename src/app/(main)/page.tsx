@@ -5,7 +5,7 @@ import { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Home",
   description:
-    "Stitches - Reware and Repair. Ithaca, NY. Shop our collection or sell with us. Worldwide Shipping. Secure Payment.",
+    "Stitches - Rewear and Repair. Ithaca, NY. Shop our collection or sell with us. Worldwide Shipping. Secure Payment.",
 }
 
 const Home = () => {
@@ -35,7 +35,7 @@ const Home = () => {
         body={
           <>
             <p>
-              Stitches began in 2023 with a simple idea: <b>that repairing is better than buying</b> 🪡 🧵
+              Stitches began in 2023 with a simple idea: <b>that repairing is better than buying new</b> 🪡 🧵
             </p>
             <br />
             <p>

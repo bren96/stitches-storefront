@@ -37,7 +37,7 @@ const BrandLogo = ({ withWording }: BrandLogoProps) => {
                 </g>
             </svg>
             {withWording
-                ? <p className={clsx(leagueSpartan.className, "w-full text-center tracking-[0.1em]")}>reware & repair</p>
+                ? <p className={clsx(leagueSpartan.className, "w-full text-center tracking-[0.1em]")}>rewear & repair</p>
                 : null
             }
         </Link>
