@@ -15,7 +15,7 @@ const Nav = () => {
     >
       <header
         className={clsx(
-          "relative h-16 px-8 mx-auto transition-colors bg-transparent duration-200 bg-teal-50",
+          "relative h-16 px-8 mx-auto transition-colors duration-200 bg-white border border-b",
         )}
       >
         <nav
