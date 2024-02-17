@@ -12,8 +12,8 @@ const lobster = Lobster({
 interface CallToActionProps {
     headerText: string
     body: JSX.Element
-    actionText: string
-    actionHref: string
+    actionText?: string
+    actionHref?: string
     imgSrc: string
     imgPos: "left" | "right"
 }
@@ -28,9 +28,12 @@ const CallToAction = ({ headerText, body, actionText, actionHref, imgSrc, imgPos
                     <h3 className={clsx(lobster.className, "text-4xl font-bold")}>{headerText}</h3>
                     <br />
                     <div className="max-w-xs">{body}</div>
-                    <div className="mt-6">
-                        <UnderlineLink href={actionHref}>{actionText}</UnderlineLink>
-                    </div>
+                    {actionText && actionHref ? (
+                        <div className="mt-6">
+                            <UnderlineLink href={actionHref}>{actionText}</UnderlineLink>
+                        </div>
+
+                    ) : null}
                 </div>
 
                 <div className="relative w-full aspect-square small:w-[35%] small:aspect-[28/36]">

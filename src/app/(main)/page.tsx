@@ -25,8 +25,8 @@ const Home = () => {
             With Stitches, you can look good and feel good about doing your part for the planet 🌎
           </p>
         </>}
-        actionText="Shop Online"
-        actionHref="/store"
+        // actionText="Shop Online"
+        // actionHref="/store"
         imgSrc="/marilia-castelli-YCLF4cRn5cM-unsplash.jpg"
         imgPos="left"
       />
@@ -43,8 +43,8 @@ const Home = () => {
             </p>
           </>
         }
-        actionText="Repair Services"
-        actionHref="/repair"
+        // actionText="Repair Services"
+        // actionHref="/repair"
         imgSrc="/tata-toto-Ohcd8kxKdQs-unsplash.jpg"
         imgPos="right"
       />
@@ -60,8 +60,8 @@ const Home = () => {
             <li>Sat  | 10am - 6pm</li>
           </ul>
         }
-        actionText="Contact Us"
-        actionHref="/contact"
+        // actionText="Contact Us"
+        // actionHref="/contact"
         imgSrc="/jacqueline-brandwayn-r4fSDicAlvQ-unsplash.jpg"
         imgPos="left"
       />
