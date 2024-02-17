@@ -16,7 +16,8 @@ const Hero = () => {
           Rewear & Repair
         </h1>
         <span className="text-black bg-white/50 p-4">
-          <UnderlineLink href="/store">Explore Collection</UnderlineLink>
+          Comming Soon to Ithaca
+          {/* <UnderlineLink href="/store">Explore Collection</UnderlineLink> */}
         </span>
       </div>
       <Image
